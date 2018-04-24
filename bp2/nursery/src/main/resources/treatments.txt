@@ -1,0 +1,3 @@
+bronchitis;Take pain relievers,Use cough medicine
+catarrh;Steam inhalation,Take sips of cold water
+lactose intolerance;Use organic fermented dairy,Add bone broth to your diet
