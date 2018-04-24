@@ -1,4 +1,4 @@
-package at.refugeescode.accountancy.model;
+package at.refugeescode.accountancy.persistence.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -14,8 +14,8 @@ public class Patient {
     private String id;
     private String patientNumber;
     private String name;
-    private List<String> symptoms;
     private String illness;
+    private String treatment;
 
 
     public String getId() {
@@ -42,20 +42,20 @@ public class Patient {
         this.name = name;
     }
 
-    public List<String> getSymptoms() {
-        return symptoms;
-    }
-
-    public void setSymptoms(List<String> symptoms) {
-        this.symptoms = symptoms;
-    }
-
     public String getIllness() {
         return illness;
     }
 
     public void setIllness(String illness) {
         this.illness = illness;
+    }
+
+    public String getTreatment() {
+        return treatment;
+    }
+
+    public void setTreatment(String treatment) {
+        this.treatment = treatment;
     }
 
 
@@ -65,8 +65,8 @@ public class Patient {
                 "id='" + id + '\'' +
                 ", patientNumber='" + patientNumber + '\'' +
                 ", name='" + name + '\'' +
-                ", symptoms=" + symptoms +
                 ", illness='" + illness + '\'' +
+                ", treatment='" + treatment + '\'' +
                 '}';
     }
 }

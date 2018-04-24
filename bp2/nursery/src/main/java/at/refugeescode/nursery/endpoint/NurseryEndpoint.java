@@ -27,7 +27,7 @@ public class NurseryEndpoint {
     @PostMapping
     void getPatient(@RequestBody Patient patient) {
         Patient curedPatient = nurse.treat(patient);
-        //restTemplate.postForEntity(accountancyUrl, patient, Patient.class);
-        System.out.println(curedPatient);
+        restTemplate.postForEntity(accountancyUrl, curedPatient, Void.class);
+
     }
 }

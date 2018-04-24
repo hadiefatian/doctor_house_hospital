@@ -4,17 +4,17 @@ import java.util.List;
 
 public class Patient {
 
-    private String id;
+    private String patientNumber;
     private String name;
     private List<String> symptoms;
 
 
-    public String getId() {
-        return id;
+    public String getPatientNumber() {
+        return patientNumber;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setPatientNumber(String patientNumber) {
+        this.patientNumber = patientNumber;
     }
 
     public String getName() {
@@ -37,7 +37,7 @@ public class Patient {
     @Override
     public String toString() {
         return "Patient{" +
-                "id='" + id + '\'' +
+                "patientNumber='" + patientNumber + '\'' +
                 ", name='" + name + '\'' +
                 ", symptoms=" + symptoms +
                 '}';
