@@ -37,11 +37,7 @@ public class Accountant {
         invoice.setDate(LocalDateTime.now());
         Patient savedPatient = patientRepository.save(patient);
         invoice.setPatient(savedPatient);
-        //invoiceRepository.save(invoice);
-        Invoice savedInvoice = invoiceRepository.save(invoice);
-
-        System.out.println(savedPatient);
-        System.out.println(savedInvoice);
+        invoiceRepository.save(invoice);
     }
 
     private Double provideCost(Map<String, Double> costs, String patientIllness) {

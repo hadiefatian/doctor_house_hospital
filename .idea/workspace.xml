@@ -2,9 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab8ef288-cb16-4950-a3e5-1090523bac56" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_4_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_0_1_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_0_1_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_1_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_5_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bp3/ui/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bp3/ui/.mvn/wrapper/maven-wrapper.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bp3/ui/.mvn/wrapper/maven-wrapper.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bp3/ui/mvnw" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bp3/ui/mvnw.cmd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bp3/ui/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bp3/ui/src/main/java/at/refugeescode/ui/UiApplication.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bp3/ui/src/main/resources/application.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bp3/ui/src/main/resources/templates/home.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bp3/ui/src/main/resources/templates/invoices.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bp3/ui/src/test/java/at/refugeescode/ui/UiApplicationTests.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/bp1/hospital_admission/src/main/java/at/refugeescode/hospital_admission/endpoint/AdmissionEndpoint.java" afterPath="$PROJECT_DIR$/bp1/hospital_admission/src/main/java/at/refugeescode/hospital_admission/endpoint/AdmissionEndpoint.java" />
-      <change beforePath="$PROJECT_DIR$/bp2/accountancy/src/main/java/at/refugeescode/accountancy/persistence/model/Patient.java" afterPath="$PROJECT_DIR$/bp2/accountancy/src/main/java/at/refugeescode/accountancy/persistence/model/Patient.java" />
+      <change beforePath="$PROJECT_DIR$/bp2/accountancy/src/main/java/at/refugeescode/accountancy/controller/Accountant.java" afterPath="$PROJECT_DIR$/bp2/accountancy/src/main/java/at/refugeescode/accountancy/controller/Accountant.java" />
     </list>
     <ignored path="$PROJECT_DIR$/diagnose_room/target/" />
     <ignored path="$PROJECT_DIR$/hospital_admission/target/" />
@@ -12,6 +33,7 @@
     <ignored path="$PROJECT_DIR$/bp1/hospital_admission/target/" />
     <ignored path="$PROJECT_DIR$/bp2/accountancy/target/" />
     <ignored path="$PROJECT_DIR$/bp2/nursery/target/" />
+    <ignored path="$PROJECT_DIR$/bp3/ui/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,36 +43,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AdmissionEndpoint.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bp1/hospital_admission/src/main/java/at/refugeescode/hospital_admission/endpoint/AdmissionEndpoint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DiagnoseEndpoint.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bp1/diagnose_room/src/main/java/at/refugeescode/diagnose_room/endpoint/DiagnoseEndpoint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bp1/hospital_admission/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NurseryEndpoint.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bp2/nursery/src/main/java/at/refugeescode/nursery/endpoint/NurseryEndpoint.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,17 +71,47 @@
         <entry file="file://$PROJECT_DIR$/bp2/accountancy/src/main/java/at/refugeescode/accountancy/endpoint/AccountancyEndpoint.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+              <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Accountant.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Accountant.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bp2/accountancy/src/main/java/at/refugeescode/accountancy/controller/Accountant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+            <state relative-caret-position="214">
+              <caret line="39" column="40" lean-forward="true" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bp3/ui/src/main/resources/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="invoices.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bp3/ui/src/main/resources/templates/invoices.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bp3/ui/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -109,7 +131,7 @@
         <entry file="file://$PROJECT_DIR$/bp2/accountancy/src/main/java/at/refugeescode/accountancy/persistence/model/Invoice.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
-              <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+              <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
               <folding>
                 <element signature="e#762#763#0" expanded="true" />
               </folding>
@@ -135,6 +157,7 @@
         <option value="JUnit5 Test Class" />
         <option value="Class" />
         <option value="Interface" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -185,13 +208,15 @@
         <option value="$PROJECT_DIR$/bp2/nursery/src/main/java/at/refugeescode/nursery/controller/Nurse.java" />
         <option value="$PROJECT_DIR$/bp1/diagnose_room/src/main/java/at/refugeescode/diagnose_room/endpoint/DiagnoseEndpoint.java" />
         <option value="$PROJECT_DIR$/bp2/nursery/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/bp2/accountancy/src/main/java/at/refugeescode/accountancy/controller/Accountant.java" />
         <option value="$PROJECT_DIR$/bp2/accountancy/src/main/java/at/refugeescode/accountancy/persistence/repository/PatientRepository.java" />
         <option value="$PROJECT_DIR$/bp2/nursery/src/main/java/at/refugeescode/nursery/endpoint/NurseryEndpoint.java" />
         <option value="$PROJECT_DIR$/bp2/accountancy/src/main/java/at/refugeescode/accountancy/endpoint/AccountancyEndpoint.java" />
         <option value="$PROJECT_DIR$/bp1/hospital_admission/src/main/java/at/refugeescode/hospital_admission/model/Patient.java" />
         <option value="$PROJECT_DIR$/bp1/hospital_admission/src/main/java/at/refugeescode/hospital_admission/endpoint/AdmissionEndpoint.java" />
         <option value="$PROJECT_DIR$/bp2/accountancy/src/main/java/at/refugeescode/accountancy/persistence/model/Patient.java" />
+        <option value="$PROJECT_DIR$/bp2/accountancy/src/main/java/at/refugeescode/accountancy/controller/Accountant.java" />
+        <option value="$PROJECT_DIR$/bp3/ui/src/main/resources/templates/home.html" />
+        <option value="$PROJECT_DIR$/bp3/ui/src/main/resources/templates/invoices.html" />
       </list>
     </option>
   </component>
@@ -693,6 +718,51 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="doctor_house_hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor_house_hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="bp3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor_house_hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor_house_hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="bp3" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor_house_hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor_house_hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="bp3" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor_house_hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor_house_hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="bp3" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor_house_hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor_house_hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="bp3" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor_house_hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor_house_hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="bp3" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -705,17 +775,21 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="at.refugeescode.diagnose_room.controller" />
       <recent name="at.refugeescode.diagnose_room.parser" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/bp1" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="at.refugeescode.nursery" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bp3/ui/src/main/resources/templates" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="at.refugeescode.accountancy.parser" />
@@ -724,8 +798,8 @@
       <recent name="at.refugeescode.nursery.controller" />
       <recent name="at.refugeescode.nursery.parser" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bp1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -983,7 +1057,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4085282" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22008254" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1040,28 +1114,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bp1/hospital_admission/src/test/java/at/refugeescode/hospital_admission/HospitalAdmissionApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bp1/diagnose_room/src/test/java/at/refugeescode/diagnose_room/controller/DrHouseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bp1/diagnose_room/src/main/java/at/refugeescode/diagnose_room/endpoint/DiagnoseEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bp1/diagnose_room/src/test/java/at/refugeescode/diagnose_room/DiagnoseRoomApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1389,7 +1441,7 @@
     <entry file="file://$PROJECT_DIR$/bp2/accountancy/src/main/java/at/refugeescode/accountancy/persistence/model/Invoice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
-          <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+          <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
           <folding>
             <element signature="e#762#763#0" expanded="true" />
           </folding>
@@ -1419,15 +1471,39 @@
     <entry file="file://$PROJECT_DIR$/bp2/accountancy/src/main/java/at/refugeescode/accountancy/endpoint/AccountancyEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bp2/accountancy/src/main/java/at/refugeescode/accountancy/controller/Accountant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state relative-caret-position="214">
+          <caret line="39" column="40" lean-forward="true" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bp3/ui/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bp3/ui/src/main/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bp3/ui/src/main/resources/templates/invoices.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding />
         </state>
       </provider>

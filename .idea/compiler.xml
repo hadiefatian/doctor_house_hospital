@@ -10,6 +10,7 @@
         <module name="diagnose_room" />
         <module name="hospital_admission" />
         <module name="nursery" />
+        <module name="ui" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +18,7 @@
       <module name="diagnose_room" target="9" />
       <module name="hospital_admission" target="9" />
       <module name="nursery" target="9" />
+      <module name="ui" target="9" />
     </bytecodeTargetLevel>
   </component>
 </project>
