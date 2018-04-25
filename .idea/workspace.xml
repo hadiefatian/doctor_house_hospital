@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab8ef288-cb16-4950-a3e5-1090523bac56" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/bp3/ui/src/main/java/at/refugeescode/ui/configuration/RestConfiguration.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bp3/ui/src/main/java/at/refugeescode/ui/controller/InvoiceController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bp3/ui/src/main/java/at/refugeescode/ui/controller/PatientController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bp3/ui/src/main/java/at/refugeescode/ui/model/Invoice.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bp3/ui/src/main/java/at/refugeescode/ui/model/LocalInvoice.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bp3/ui/src/main/java/at/refugeescode/ui/model/LocalPatient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bp3/ui/src/main/java/at/refugeescode/ui/model/Patient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bp3/ui/src/main/java/at/refugeescode/ui/view/HomePageController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bp3/ui/src/main/java/at/refugeescode/ui/view/InvoicesPageController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bp3/ui/src/main/resources/static/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_0_1_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_4_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_4_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_0_4_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_4_RELEASE.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/bp3/ui/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/bp3/ui/src/main/resources/application.properties" />
-      <change beforePath="$PROJECT_DIR$/bp3/ui/src/main/resources/templates/home.html" afterPath="$PROJECT_DIR$/bp3/ui/src/main/resources/templates/home.html" />
-      <change beforePath="$PROJECT_DIR$/bp3/ui/src/main/resources/templates/invoices.html" afterPath="$PROJECT_DIR$/bp3/ui/src/main/resources/templates/invoices.html" />
+      <change beforePath="$PROJECT_DIR$/bp3/ui/pom.xml" afterPath="$PROJECT_DIR$/bp3/ui/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/diagnose_room/target/" />
     <ignored path="$PROJECT_DIR$/hospital_admission/target/" />
@@ -54,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/bp3/ui/src/main/resources/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="313">
-              <caret line="48" column="69" lean-forward="true" selection-start-line="48" selection-start-column="69" selection-end-line="48" selection-end-column="69" />
+              <caret line="48" column="69" lean-forward="false" selection-start-line="48" selection-start-column="69" selection-end-line="48" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -64,17 +57,27 @@
         <entry file="file://$PROJECT_DIR$/bp3/ui/src/main/resources/templates/invoices.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="223">
-              <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+              <caret line="36" column="6" lean-forward="false" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bp3/ui/src/main/resources/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+              <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bp3/ui/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="65" column="4" lean-forward="false" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -84,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/bp3/ui/src/main/java/at/refugeescode/ui/UiApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -123,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bp2/accountancy/pom.xml" />
         <option value="$PROJECT_DIR$/bp2/accountancy/src/main/java/at/refugeescode/accountancy/model/Patient.java" />
         <option value="$PROJECT_DIR$/bp2/accountancy/src/main/java/at/refugeescode/accountancy/model/Invoice.java" />
         <option value="$PROJECT_DIR$/bp2/nursery/src/main/java/at/refugeescode/nursery/model/Patient.java" />
@@ -174,6 +176,7 @@
         <option value="$PROJECT_DIR$/bp3/ui/src/main/resources/templates/home.html" />
         <option value="$PROJECT_DIR$/bp3/ui/src/main/resources/templates/invoices.html" />
         <option value="$PROJECT_DIR$/bp3/ui/src/main/resources/static/css/style.css" />
+        <option value="$PROJECT_DIR$/bp3/ui/pom.xml" />
       </list>
     </option>
   </component>
@@ -801,13 +804,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.29/tomcat-embed-core-8.5.29.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.5.RELEASE/spring-webmvc-5.0.5.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -1122,22 +1118,22 @@
         <state relative-caret-position="143">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="false" />
+            <element signature="e#458#459#0" expanded="false" />
+            <element signature="e#498#499#0" expanded="false" />
+            <element signature="e#530#531#0" expanded="false" />
+            <element signature="e#564#565#0" expanded="false" />
+            <element signature="e#594#595#0" expanded="false" />
+            <element signature="e#640#641#0" expanded="false" />
+            <element signature="e#678#679#0" expanded="false" />
+            <element signature="e#709#710#0" expanded="false" />
+            <element signature="e#736#737#0" expanded="false" />
+            <element signature="e#776#777#0" expanded="false" />
+            <element signature="e#808#809#0" expanded="false" />
+            <element signature="e#839#840#0" expanded="false" />
+            <element signature="e#866#867#0" expanded="false" />
+            <element signature="e#906#907#0" expanded="false" />
+            <element signature="e#938#939#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1179,13 +1175,13 @@
         <state relative-caret-position="408">
           <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#597#598#0" expanded="false" />
+            <element signature="e#655#656#0" expanded="false" />
+            <element signature="e#757#758#0" expanded="false" />
+            <element signature="e#811#812#0" expanded="false" />
+            <element signature="e#877#878#0" expanded="false" />
+            <element signature="e#910#911#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1233,7 +1229,7 @@
     <entry file="file://$PROJECT_DIR$/bp3/ui/src/main/java/at/refugeescode/ui/UiApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1253,7 +1249,7 @@
     <entry file="file://$PROJECT_DIR$/bp3/ui/src/main/resources/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
-          <caret line="48" column="69" lean-forward="true" selection-start-line="48" selection-start-column="69" selection-end-line="48" selection-end-column="69" />
+          <caret line="48" column="69" lean-forward="false" selection-start-line="48" selection-start-column="69" selection-end-line="48" selection-end-column="69" />
           <folding />
         </state>
       </provider>
@@ -1261,7 +1257,7 @@
     <entry file="file://$PROJECT_DIR$/bp3/ui/src/main/resources/templates/invoices.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
-          <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+          <caret line="36" column="6" lean-forward="false" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1269,7 +1265,15 @@
     <entry file="file://$PROJECT_DIR$/bp3/ui/src/main/resources/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bp3/ui/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="65" column="4" lean-forward="false" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
           <folding />
         </state>
       </provider>
