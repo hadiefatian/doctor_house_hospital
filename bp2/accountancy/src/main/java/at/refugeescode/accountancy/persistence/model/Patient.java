@@ -11,18 +11,18 @@ public class Patient {
     @Id
     @GeneratedValue
     @JsonIgnore
-    private String id;
+    private Long id;
     private String patientNumber;
     private String name;
     private String illness;
     private String treatment;
 
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

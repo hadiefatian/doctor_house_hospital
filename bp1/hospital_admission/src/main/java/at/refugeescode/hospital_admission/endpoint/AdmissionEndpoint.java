@@ -15,7 +15,7 @@ import java.util.UUID;
 public class AdmissionEndpoint {
 
     @Value("${diagnoseroom.url}")
-    String diagnoseRoomUrl;
+    private String diagnoseRoomUrl;
     private RestTemplate restTemplate;
 
     public AdmissionEndpoint(RestTemplate restTemplate) {
